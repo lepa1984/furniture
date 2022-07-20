@@ -1,0 +1,1757 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/style.min.css" />
+    <title> База автомобилистов</title>
+</head>
+
+
+    <body>
+        <div class="wrapper">
+            <header class="header">
+    <div class="header__wrapper">
+        <nav class="nav header__nav-top">
+            <div class="container">
+                <ul class="nav__lists">
+                    <li class="nav__list">
+                        <a href="about.html" class="nav__link">О компании</a>
+                    </li>
+                    <li class="nav__list">
+                        <a href="#" class="nav__link">События</a>
+                    </li>
+                    <li class="nav__list">
+                        <a href="#" class="nav__link">Наши проекты</a>
+                    </li>
+                    <li class="nav__list">
+                        <a href="#" class="nav__link">Акции</a>
+                    </li>
+                    <li class="nav__list">
+                        <a href="#" class="nav__link">Партнеры</a>
+                    </li>
+                    <li class="nav__list">
+                        <a href="#" class="nav__link">Контакты</a>
+                    </li>
+                </ul>
+                <div class="header__inner">
+                    <a href="tel:88003505431" class="header__phone"
+                        >8 (800) 350-54-31</a
+                    >
+                    <button
+                        class="header__btn callback"
+                        data-path="form-popup-callback"
+                    >
+                        Обратный звонок
+                    </button>
+                </div>
+            </div>
+        </nav>
+        <nav class="nav header__nav nav-mobile">
+            <ul class="nav__lists">
+                <li class="nav__list">
+                    <div class="nav__link arrow-mobile">каталог</div>
+                    <ul class="nav-mobile__submenu">
+                        <li>
+                            <a href="#">мебель</a>
+                        </li>
+                        <li>
+                            <a href="#">кухни</a>
+                        </li>
+                        <li>
+                            <a href="#">свет</a>
+                        </li>
+                        <li>
+                            <a href="#">outdoor</a>
+                        </li>
+                        <li>
+                            <a href="#">текстиль</a>
+                        </li>
+                        <li>
+                            <a href="#">ковры</a>
+                        </li>
+                        <li>
+                            <a href="#" class="brown">в наличии</a>
+                        </li>
+                        <li>
+                            <div class="nav-mobile__back">Назад</div>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav__list">
+                    <a href="about.html" class="nav__link">О компании</a>
+                </li>
+                <li class="nav__list">
+                    <a href="#" class="nav__link">События</a>
+                </li>
+                <li class="nav__list">
+                    <a href="#" class="nav__link">Наши проекты</a>
+                </li>
+                <li class="nav__list">
+                    <a href="#" class="nav__link">Акции</a>
+                </li>
+                <li class="nav__list">
+                    <a href="#" class="nav__link">Партнеры</a>
+                </li>
+                <li class="nav__list">
+                    <a href="#" class="nav__link">Контакты</a>
+                </li>
+            </ul>
+            <div class="header__inner">
+                <div class="header__time">Пн-Пт с 9:00 до 18:00 по Мск</div>
+                <a href="tel:88003505431" class="header__phone"
+                    >8 (800) 350-54-31</a
+                >
+                <p class="header__address">
+                    г. Москва, 119049, ул. Донская, д.6 стр.2
+                </p>
+                <a href="mailto:ort.furniture@mail.ru" class="header__mail"
+                    >ort.furniture@mail.ru</a
+                >
+                <button
+                    class="header__btn callback"
+                    data-path="form-popup-callback"
+                >
+                    Обратный звонок
+                </button>
+            </div>
+        </nav>
+        <div class="container">
+            <nav class="nav header__nav-bottom">
+                <a href="index.html">
+                    <div class="logo header__logo">
+                        <p>орт мебель</p>
+                    </div></a
+                >
+                <ul class="nav__lists">
+                    <li class="nav__list">
+                        <a href="#" class="nav__link">бренды</a>
+                    </li>
+
+                    <li class="nav__list">
+                        <a href="#" class="nav__link">Мебель</a>
+                    </li>
+                    <li class="nav__list nav__driver">
+                        <a href="#" class="nav__link">кухни</a>
+                    </li>
+                    <li class="nav__list nav__subscribe">
+                        <a href="#" class="nav__link">свет</a>
+                    </li>
+                    <li class="nav__list nav__subscribe">
+                        <a href="#" class="nav__link">outdoor</a>
+                    </li>
+                    <li class="nav__list nav__subscribe">
+                        <a href="#" class="nav__link">текстиль</a>
+                    </li>
+                    <li class="nav__list nav__subscribe">
+                        <a href="#" class="nav__link">ковры</a>
+                    </li>
+                    <li class="nav__list nav__subscribe">
+                        <a href="#" class="nav__link">в наличии</a>
+                    </li>
+                </ul>
+                <div class="overlay"></div>
+                <div class="submenu">
+                    <ul class="submenu__inner">
+                        <li class="submenu__item">
+                            <div class="submenu__item-title arrow">бренды</div>
+                            <div class="submenu__dropdown">
+                                <ul class="submenu__dropdown-list">
+                                    <li class="submenu__dropdown-item">
+                                        <a
+                                            href="#"
+                                            class="submenu__dropdown-link"
+                                        >
+                                            Dimensione Chi Wing Lo®
+                                        </a>
+                                    </li>
+                                    <li class="submenu__dropdown-item">
+                                        <a
+                                            href="#"
+                                            class="submenu__dropdown-link"
+                                        >
+                                            B&B Italia
+                                        </a>
+                                    </li>
+                                    <li class="submenu__dropdown-item">
+                                        <a
+                                            href="#"
+                                            class="submenu__dropdown-link"
+                                        >
+                                            Maxalto
+                                        </a>
+                                    </li>
+                                    <li class="submenu__dropdown-item">
+                                        <a
+                                            href="#"
+                                            class="submenu__dropdown-link"
+                                        >
+                                            Walter Knoll
+                                        </a>
+                                    </li>
+                                    <li class="submenu__dropdown-item">
+                                        <a
+                                            href="#"
+                                            class="submenu__dropdown-link"
+                                        >
+                                            Wittmann
+                                        </a>
+                                    </li>
+                                    <li class="submenu__dropdown-item">
+                                        <a
+                                            href="#"
+                                            class="submenu__dropdown-link"
+                                        >
+                                            Flos
+                                        </a>
+                                    </li>
+                                    <li class="submenu__dropdown-item">
+                                        <a
+                                            href="#"
+                                            class="submenu__dropdown-link"
+                                        >
+                                            bulthaup
+                                        </a>
+                                    </li>
+                                    <li class="submenu__dropdown-item">
+                                        <a
+                                            href="#"
+                                            class="submenu__dropdown-link"
+                                        >
+                                            Siematic
+                                        </a>
+                                    </li>
+                                    <li class="submenu__dropdown-item">
+                                        <a
+                                            href="#"
+                                            class="submenu__dropdown-link"
+                                        >
+                                            Carl Hansen & Son
+                                        </a>
+                                    </li>
+                                    <li class="submenu__dropdown-item">
+                                        <a
+                                            href="#"
+                                            class="submenu__dropdown-link"
+                                        >
+                                            Ceccotti
+                                        </a>
+                                    </li>
+                                    <li class="submenu__dropdown-item">
+                                        <a
+                                            href="#"
+                                            class="submenu__dropdown-link"
+                                        >
+                                            Draenert
+                                        </a>
+                                    </li>
+                                    <li class="submenu__dropdown-item">
+                                        <a
+                                            href="#"
+                                            class="submenu__dropdown-link"
+                                        >
+                                            Fritz Hansen
+                                        </a>
+                                    </li>
+                                    <li class="submenu__dropdown-item">
+                                        <a
+                                            href="#"
+                                            class="submenu__dropdown-link"
+                                        >
+                                            Dimensione Chi Wing Lo®
+                                        </a>
+                                    </li>
+                                    <li class="submenu__dropdown-item">
+                                        <a
+                                            href="#"
+                                            class="submenu__dropdown-link"
+                                        >
+                                            B&B Italia
+                                        </a>
+                                    </li>
+                                    <li class="submenu__dropdown-item">
+                                        <a
+                                            href="#"
+                                            class="submenu__dropdown-link"
+                                        >
+                                            Maxalto
+                                        </a>
+                                    </li>
+                                    <li class="submenu__dropdown-item">
+                                        <a
+                                            href="#"
+                                            class="submenu__dropdown-link"
+                                        >
+                                            Walter Knoll
+                                        </a>
+                                    </li>
+                                    <li class="submenu__dropdown-item">
+                                        <a
+                                            href="#"
+                                            class="submenu__dropdown-link"
+                                        >
+                                            Wittmann
+                                        </a>
+                                    </li>
+                                    <li class="submenu__dropdown-item">
+                                        <a
+                                            href="#"
+                                            class="submenu__dropdown-link"
+                                        >
+                                            Flos
+                                        </a>
+                                    </li>
+                                    <li class="submenu__dropdown-item">
+                                        <a
+                                            href="#"
+                                            class="submenu__dropdown-link"
+                                        >
+                                            bulthaup
+                                        </a>
+                                    </li>
+                                    <li class="submenu__dropdown-item">
+                                        <a
+                                            href="#"
+                                            class="submenu__dropdown-link"
+                                        >
+                                            Siematic
+                                        </a>
+                                    </li>
+                                    <li class="submenu__dropdown-item">
+                                        <a
+                                            href="#"
+                                            class="submenu__dropdown-link"
+                                        >
+                                            Carl Hansen & Son
+                                        </a>
+                                    </li>
+                                    <li class="submenu__dropdown-item">
+                                        <a
+                                            href="#"
+                                            class="submenu__dropdown-link"
+                                        >
+                                            Ceccotti
+                                        </a>
+                                    </li>
+                                    <li class="submenu__dropdown-item">
+                                        <a
+                                            href="#"
+                                            class="submenu__dropdown-link"
+                                        >
+                                            Draenert
+                                        </a>
+                                    </li>
+                                    <li class="submenu__dropdown-item">
+                                        <a
+                                            href="#"
+                                            class="submenu__dropdown-link"
+                                        >
+                                            Fritz Hansen
+                                        </a>
+                                    </li>
+                                    <li class="submenu__dropdown-item">
+                                        <a
+                                            href="#"
+                                            class="submenu__dropdown-link"
+                                        >
+                                            bulthaup
+                                        </a>
+                                    </li>
+                                    <li class="submenu__dropdown-item">
+                                        <a
+                                            href="#"
+                                            class="submenu__dropdown-link"
+                                        >
+                                            Siematic
+                                        </a>
+                                    </li>
+                                    <li class="submenu__dropdown-item">
+                                        <a
+                                            href="#"
+                                            class="submenu__dropdown-link"
+                                        >
+                                            Carl Hansen & Son
+                                        </a>
+                                    </li>
+                                    <li class="submenu__dropdown-item">
+                                        <a
+                                            href="#"
+                                            class="submenu__dropdown-link"
+                                        >
+                                            Ceccotti
+                                        </a>
+                                    </li>
+                                    <li class="submenu__dropdown-item">
+                                        <a
+                                            href="#"
+                                            class="submenu__dropdown-link"
+                                        >
+                                            Draenert
+                                        </a>
+                                    </li>
+                                    <li class="submenu__dropdown-item">
+                                        <a
+                                            href="#"
+                                            class="submenu__dropdown-link"
+                                        >
+                                            Fritz Hansen
+                                        </a>
+                                    </li>
+                                </ul>
+                                <a href="#" class="submenu__dropdown-all">
+                                    Все бренды
+                                </a>
+                            </div>
+                        </li>
+                        <li class="submenu__item">
+                            <div class="submenu__item-title arrow">мебель</div>
+                            <div class="submenu__dropdown submenu__dropdown2">
+                                <ul class="submenu__dropdown-list">
+                                    <li class="submenu__dropdown-item">
+                                        <a
+                                            href="#"
+                                            class="submenu__dropdown-link"
+                                        >
+                                            Гардеробные
+                                        </a>
+                                    </li>
+                                    <li class="submenu__dropdown-item">
+                                        <a
+                                            href="#"
+                                            class="submenu__dropdown-link"
+                                        >
+                                            Кровати
+                                        </a>
+                                    </li>
+                                    <li class="submenu__dropdown-item">
+                                        <a
+                                            href="#"
+                                            class="submenu__dropdown-link"
+                                        >
+                                            Столы
+                                        </a>
+                                    </li>
+                                    <li class="submenu__dropdown-item">
+                                        <a
+                                            href="#"
+                                            class="submenu__dropdown-link"
+                                        >
+                                            Стулья
+                                        </a>
+                                    </li>
+                                </ul>
+                                <a href="#" class="submenu__dropdown-all">
+                                    Все бренды
+                                </a>
+                            </div>
+                        </li>
+                        <li class="submenu__item">
+                            <a href="#" class="submenu__item-title">кухни</a>
+                        </li>
+                        <li class="submenu__item">
+                            <a href="#" class="submenu__item-title">свет</a>
+                        </li>
+                        <li class="submenu__item">
+                            <a href="#" class="submenu__item-title">outdoor</a>
+                        </li>
+                        <li class="submenu__item">
+                            <a href="#" class="submenu__item-title">текстиль</a>
+                        </li>
+                        <li class="submenu__item">
+                            <a href="#" class="submenu__item-title">ковры</a>
+                        </li>
+                        <li class="submenu__item">
+                            <a href="#" class="submenu__item-title"
+                                >в наличии</a
+                            >
+                        </li>
+                    </ul>
+                    <img src="img/menu.jpg" alt="img" />
+                </div>
+                <div class="burger burger-desktop">
+                    <div class="burger__text">каталог</div>
+                    <div class="burger__btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="burger burger-mobile">
+                    <div class="burger__btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+<div class="modals modals-callback">
+    <div class="modal-overlay">
+        <div class="modal" data-target="form-popup-callback">
+            <div class="close"></div>
+
+            <form class="form callback__form">
+                <div class="form__body">
+                    <h3 class="form__title">перезвоним вам</h3>
+                    <div class="form__content">
+                        <input
+                            type="text"
+                            class="form__item form__input"
+                            placeholder="Имя"
+                            name="name"
+                            value=""
+                        />
+                        <input
+                            type="number"
+                            class="form__item form__input"
+                            placeholder="Телефон*"
+                            name="phone"
+                            value=""
+                            required
+                        />
+                        <p class="error">Поле обязательно для заполнения</p>
+                        <textarea
+                            placeholder="Укажите любую информацию: удобное время для звонка или интересующие вас вопросы
+                        "
+                            class="form__item form__input"
+                        ></textarea>
+
+                        <button
+                            class="form__btn btn callback-thanks"
+                            data-path="form-popup-thanks"
+                        >
+                            отправить
+                        </button>
+                        <p class="form__info">
+                            Нажимая на кнопку «Отправить», вы даете согласие на
+                            обработку
+                            <a href="privacy.html">персональных данных</a>
+                        </p>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+            <main class="content">
+                <section class="main">
+    <div class="container">
+        <div class="main__wrapper">
+            <div class="swiper main__swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide main__slide">
+                        <div class="main__slide-inner">
+                            <div class="main__brand">
+                                <img src="img/brand-1.png" alt="brand" />
+                            </div>
+                            <p class="main__text">
+                                bulthaup — легендарный немецкий бренд, создающий
+                                концептуальные кухни премиум-класса
+                            </p>
+                            <a href="#">Перейти к бренду</a>
+                        </div>
+                        <div class="main__slide-img">
+                            <img src="img/main-slide.jpg" alt="img" />
+                        </div>
+                    </div>
+                    <div class="swiper-slide main__slide">
+                        <div class="main__slide-inner">
+                            <div class="main__brand">
+                                <img src="img/brand-2.png" alt="brand" />
+                            </div>
+                            <p class="main__text">
+                                bulthaup — легендарный немецкий бренд, создающий
+                                концептуальные кухни премиум-класса
+                            </p>
+                            <a href="#">Перейти к бренду</a>
+                        </div>
+                        <div class="main__slide-img">
+                            <img src="img/main-slide.jpg" alt="img" />
+                        </div>
+                    </div>
+                    <div class="swiper-slide main__slide">
+                        <div class="main__slide-inner">
+                            <div class="main__brand">
+                                <img src="img/brand-3.png" alt="brand" />
+                            </div>
+                            <p class="main__text">
+                                bulthaup — легендарный немецкий бренд, создающий
+                                концептуальные кухни премиум-класса
+                            </p>
+                            <a href="#">Перейти к бренду</a>
+                        </div>
+                        <div class="main__slide-img">
+                            <img src="img/main-slide.jpg" alt="img" />
+                        </div>
+                    </div>
+                    <div class="swiper-slide main__slide">
+                        <div class="main__slide-inner">
+                            <div class="main__brand">
+                                <img src="img/brand-4.png" alt="brand" />
+                            </div>
+                            <p class="main__text">
+                                bulthaup — легендарный немецкий бренд, создающий
+                                концептуальные кухни премиум-класса
+                            </p>
+                            <a href="#">Перейти к бренду</a>
+                        </div>
+                        <div class="main__slide-img">
+                            <img src="img/main-slide.jpg" alt="img" />
+                        </div>
+                    </div>
+                    <div class="swiper-slide main__slide">
+                        <div class="main__slide-inner">
+                            <div class="main__brand">
+                                <img src="img/brand-5.png" alt="brand" />
+                            </div>
+                            <p class="main__text">
+                                bulthaup — легендарный немецкий бренд, создающий
+                                концептуальные кухни премиум-класса
+                            </p>
+                            <a href="#">Перейти к бренду</a>
+                        </div>
+                        <div class="main__slide-img">
+                            <img src="img/main-slide.jpg" alt="img" />
+                        </div>
+                    </div>
+                    <div class="swiper-slide main__slide">
+                        <div class="main__slide-inner">
+                            <div class="main__brand">
+                                <img src="img/brand-6.png" alt="brand" />
+                            </div>
+                            <p class="main__text">
+                                bulthaup — легендарный немецкий бренд, создающий
+                                концептуальные кухни премиум-класса
+                            </p>
+                            <a href="#">Перейти к бренду</a>
+                        </div>
+                        <div class="main__slide-img">
+                            <img src="img/main-slide.jpg" alt="img" />
+                        </div>
+                    </div>
+                    <div class="swiper-slide main__slide">
+                        <div class="main__slide-inner">
+                            <div class="main__brand">
+                                <img src="img/brand-7.png" alt="brand" />
+                            </div>
+                            <p class="main__text">
+                                bulthaup — легендарный немецкий бренд, создающий
+                                концептуальные кухни премиум-класса
+                            </p>
+                            <a href="#">Перейти к бренду</a>
+                        </div>
+                        <div class="main__slide-img">
+                            <img src="img/main-slide.jpg" alt="img" />
+                        </div>
+                    </div>
+                    <div class="swiper-slide main__slide">
+                        <div class="main__slide-inner">
+                            <div class="main__brand">
+                                <img src="img/brand-8.png" alt="brand" />
+                            </div>
+                            <p class="main__text">
+                                bulthaup — легендарный немецкий бренд, создающий
+                                концептуальные кухни премиум-класса
+                            </p>
+                            <a href="#">Перейти к бренду</a>
+                        </div>
+                        <div class="main__slide-img">
+                            <img src="img/main-slide.jpg" alt="img" />
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+    </div>
+    <h6></h6>
+</section>
+
+                <section class="brands">
+    <div class="container">
+        <div class="brands__wrapper">
+            <h2 class="brands__title title">Представленные бренды</h2>
+            <div class="swiper brands__swiper">
+                <div class="navigation-arrow">
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide brands__slide">
+                        <div class="brands__labels">
+                            <a href="brand.html">
+                                <div class="brands__label">
+                                    <img src="img/brand-1.png" alt="label" />
+                                </div>
+                            </a>
+                            <a href="brand.html">
+                                <div class="brands__label">
+                                    <img
+                                        src="img/brand-2.png"
+                                        alt="label"
+                                    /></div
+                            ></a>
+                            <a href="brand.html">
+                                <div class="brands__label">
+                                    <img
+                                        src="img/brand-3.png"
+                                        alt="label"
+                                    /></div
+                            ></a>
+                            <a href="brand.html">
+                                <div class="brands__label">
+                                    <img
+                                        src="img/brand-4.png"
+                                        alt="label"
+                                    /></div
+                            ></a>
+                            <a href="brand.html">
+                                <div class="brands__label">
+                                    <img
+                                        src="img/brand-5.png"
+                                        alt="label"
+                                    /></div
+                            ></a>
+                            <a href="brand.html">
+                                <div class="brands__label">
+                                    <img
+                                        src="img/brand-6.png"
+                                        alt="label"
+                                    /></div
+                            ></a>
+                            <a href="brand.html">
+                                <div class="brands__label">
+                                    <img
+                                        src="img/brand-7.png"
+                                        alt="label"
+                                    /></div
+                            ></a>
+                            <a href="brand.html">
+                                <div class="brands__label">
+                                    <img
+                                        src="img/brand-8.png"
+                                        alt="label"
+                                    /></div
+                            ></a>
+                            <a href="brand.html">
+                                <div class="brands__label">
+                                    <img
+                                        src="img/brand-9.png"
+                                        alt="label"
+                                    /></div
+                            ></a>
+                            <a href="brand.html">
+                                <div class="brands__label">
+                                    <img
+                                        src="img/brand-10.png"
+                                        alt="label"
+                                    /></div
+                            ></a>
+                            <a href="brand.html">
+                                <div class="brands__label">
+                                    <img
+                                        src="img/brand-11.png"
+                                        alt="label"
+                                    /></div
+                            ></a>
+                            <a href="brand.html">
+                                <div class="brands__label">
+                                    <img
+                                        src="img/brand-12.png"
+                                        alt="label"
+                                    /></div
+                            ></a>
+                            <a href="brand.html">
+                                <div class="brands__label">
+                                    <img
+                                        src="img/brand-13.png"
+                                        alt="label"
+                                    /></div
+                            ></a>
+                            <a href="brand.html">
+                                <div class="brands__label">
+                                    <img
+                                        src="img/brand-14.png"
+                                        alt="label"
+                                    /></div
+                            ></a>
+                            <a href="brand.html">
+                                <div class="brands__label">
+                                    <img src="img/brand-15.png" alt="label" />
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide brands__slide">
+                        <div class="brands__labels">
+                            <a href="brand.html">
+                                <div class="brands__label">
+                                    <img src="img/brand-1.png" alt="label" />
+                                </div>
+                            </a>
+                            <a href="brand.html">
+                                <div class="brands__label">
+                                    <img
+                                        src="img/brand-2.png"
+                                        alt="label"
+                                    /></div
+                            ></a>
+                            <a href="brand.html">
+                                <div class="brands__label">
+                                    <img
+                                        src="img/brand-3.png"
+                                        alt="label"
+                                    /></div
+                            ></a>
+                            <a href="brand.html">
+                                <div class="brands__label">
+                                    <img
+                                        src="img/brand-4.png"
+                                        alt="label"
+                                    /></div
+                            ></a>
+                            <a href="brand.html">
+                                <div class="brands__label">
+                                    <img
+                                        src="img/brand-5.png"
+                                        alt="label"
+                                    /></div
+                            ></a>
+                            <a href="brand.html">
+                                <div class="brands__label">
+                                    <img
+                                        src="img/brand-6.png"
+                                        alt="label"
+                                    /></div
+                            ></a>
+                            <a href="brand.html">
+                                <div class="brands__label">
+                                    <img
+                                        src="img/brand-7.png"
+                                        alt="label"
+                                    /></div
+                            ></a>
+                            <a href="brand.html">
+                                <div class="brands__label">
+                                    <img
+                                        src="img/brand-8.png"
+                                        alt="label"
+                                    /></div
+                            ></a>
+                            <a href="brand.html">
+                                <div class="brands__label">
+                                    <img
+                                        src="img/brand-9.png"
+                                        alt="label"
+                                    /></div
+                            ></a>
+                            <a href="brand.html">
+                                <div class="brands__label">
+                                    <img
+                                        src="img/brand-10.png"
+                                        alt="label"
+                                    /></div
+                            ></a>
+                            <a href="brand.html">
+                                <div class="brands__label">
+                                    <img
+                                        src="img/brand-11.png"
+                                        alt="label"
+                                    /></div
+                            ></a>
+                            <a href="brand.html">
+                                <div class="brands__label">
+                                    <img
+                                        src="img/brand-12.png"
+                                        alt="label"
+                                    /></div
+                            ></a>
+                            <a href="brand.html">
+                                <div class="brands__label">
+                                    <img
+                                        src="img/brand-13.png"
+                                        alt="label"
+                                    /></div
+                            ></a>
+                            <a href="brand.html">
+                                <div class="brands__label">
+                                    <img
+                                        src="img/brand-14.png"
+                                        alt="label"
+                                    /></div
+                            ></a>
+                            <a href="brand.html">
+                                <div class="brands__label">
+                                    <img src="img/brand-15.png" alt="label" />
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide brands__slide">
+                        <div class="brands__labels">
+                            <a href="brand.html">
+                                <div class="brands__label">
+                                    <img src="img/brand-1.png" alt="label" />
+                                </div>
+                            </a>
+                            <a href="brand.html">
+                                <div class="brands__label">
+                                    <img
+                                        src="img/brand-2.png"
+                                        alt="label"
+                                    /></div
+                            ></a>
+                            <a href="brand.html">
+                                <div class="brands__label">
+                                    <img
+                                        src="img/brand-3.png"
+                                        alt="label"
+                                    /></div
+                            ></a>
+                            <a href="brand.html">
+                                <div class="brands__label">
+                                    <img
+                                        src="img/brand-4.png"
+                                        alt="label"
+                                    /></div
+                            ></a>
+                            <a href="brand.html">
+                                <div class="brands__label">
+                                    <img
+                                        src="img/brand-5.png"
+                                        alt="label"
+                                    /></div
+                            ></a>
+                            <a href="brand.html">
+                                <div class="brands__label">
+                                    <img
+                                        src="img/brand-6.png"
+                                        alt="label"
+                                    /></div
+                            ></a>
+                            <a href="brand.html">
+                                <div class="brands__label">
+                                    <img
+                                        src="img/brand-7.png"
+                                        alt="label"
+                                    /></div
+                            ></a>
+                            <a href="brand.html">
+                                <div class="brands__label">
+                                    <img
+                                        src="img/brand-8.png"
+                                        alt="label"
+                                    /></div
+                            ></a>
+                            <a href="brand.html">
+                                <div class="brands__label">
+                                    <img
+                                        src="img/brand-9.png"
+                                        alt="label"
+                                    /></div
+                            ></a>
+                            <a href="brand.html">
+                                <div class="brands__label">
+                                    <img
+                                        src="img/brand-10.png"
+                                        alt="label"
+                                    /></div
+                            ></a>
+                            <a href="brand.html">
+                                <div class="brands__label">
+                                    <img
+                                        src="img/brand-11.png"
+                                        alt="label"
+                                    /></div
+                            ></a>
+                            <a href="brand.html">
+                                <div class="brands__label">
+                                    <img
+                                        src="img/brand-12.png"
+                                        alt="label"
+                                    /></div
+                            ></a>
+                            <a href="brand.html">
+                                <div class="brands__label">
+                                    <img
+                                        src="img/brand-13.png"
+                                        alt="label"
+                                    /></div
+                            ></a>
+                            <a href="brand.html">
+                                <div class="brands__label">
+                                    <img
+                                        src="img/brand-14.png"
+                                        alt="label"
+                                    /></div
+                            ></a>
+                            <a href="brand.html">
+                                <div class="brands__label">
+                                    <img src="img/brand-15.png" alt="label" />
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide brands__slide">
+                        <div class="brands__labels">
+                            <a href="brand.html">
+                                <div class="brands__label">
+                                    <img src="img/brand-1.png" alt="label" />
+                                </div>
+                            </a>
+                            <a href="brand.html">
+                                <div class="brands__label">
+                                    <img
+                                        src="img/brand-2.png"
+                                        alt="label"
+                                    /></div
+                            ></a>
+                            <a href="brand.html">
+                                <div class="brands__label">
+                                    <img
+                                        src="img/brand-3.png"
+                                        alt="label"
+                                    /></div
+                            ></a>
+                            <a href="brand.html">
+                                <div class="brands__label">
+                                    <img
+                                        src="img/brand-4.png"
+                                        alt="label"
+                                    /></div
+                            ></a>
+                            <a href="brand.html">
+                                <div class="brands__label">
+                                    <img
+                                        src="img/brand-5.png"
+                                        alt="label"
+                                    /></div
+                            ></a>
+                            <a href="brand.html">
+                                <div class="brands__label">
+                                    <img
+                                        src="img/brand-6.png"
+                                        alt="label"
+                                    /></div
+                            ></a>
+                            <a href="brand.html">
+                                <div class="brands__label">
+                                    <img
+                                        src="img/brand-7.png"
+                                        alt="label"
+                                    /></div
+                            ></a>
+                            <a href="brand.html">
+                                <div class="brands__label">
+                                    <img
+                                        src="img/brand-8.png"
+                                        alt="label"
+                                    /></div
+                            ></a>
+                            <a href="brand.html">
+                                <div class="brands__label">
+                                    <img
+                                        src="img/brand-9.png"
+                                        alt="label"
+                                    /></div
+                            ></a>
+                            <a href="brand.html">
+                                <div class="brands__label">
+                                    <img
+                                        src="img/brand-10.png"
+                                        alt="label"
+                                    /></div
+                            ></a>
+                            <a href="brand.html">
+                                <div class="brands__label">
+                                    <img
+                                        src="img/brand-11.png"
+                                        alt="label"
+                                    /></div
+                            ></a>
+                            <a href="brand.html">
+                                <div class="brands__label">
+                                    <img
+                                        src="img/brand-12.png"
+                                        alt="label"
+                                    /></div
+                            ></a>
+                            <a href="brand.html">
+                                <div class="brands__label">
+                                    <img
+                                        src="img/brand-13.png"
+                                        alt="label"
+                                    /></div
+                            ></a>
+                            <a href="brand.html">
+                                <div class="brands__label">
+                                    <img
+                                        src="img/brand-14.png"
+                                        alt="label"
+                                    /></div
+                            ></a>
+                            <a href="brand.html">
+                                <div class="brands__label">
+                                    <img src="img/brand-15.png" alt="label" />
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+                <section class="main-catalog">
+    <div class="container">
+        <div class="main-catalog__wrapper">
+            <h2 class="main-catalog__title title">каталог</h2>
+            <div class="swiper main-catalog__swiper">
+                <div class="navigation-arrow">
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide main-catalog__slide">
+                        <div class="main-catalog__item">
+                            <img src="img/main-catalog-1.jpg" alt="img" /><a
+                                href="#"
+                            >
+                                <h4 class="main-catalog__item-title">Мебель</h4>
+                                <p class="main-catalog__item-text">
+                                    Дизайнерская мебель из Европы — кровати,
+                                    кресла, столы, шкафы и другое
+                                </p></a
+                            >
+                        </div>
+                        <div class="main-catalog__item">
+                            <img src="img/main-catalog-2.jpg" alt="img" /><a
+                                href="#"
+                            >
+                                <h4 class="main-catalog__item-title">
+                                    Кухни
+                                </h4></a
+                            >
+                        </div>
+                        <div class="main-catalog__item">
+                            <img src="img/main-catalog-3.jpg" alt="img" />
+                            <a href="#">
+                                <h4 class="main-catalog__item-title">
+                                    Свет
+                                </h4></a
+                            >
+                        </div>
+                    </div>
+                    <div class="swiper-slide main-catalog__slide">
+                        <div class="main-catalog__item">
+                            <img src="img/main-catalog-1.jpg" alt="img" /><a
+                                href="#"
+                            >
+                                <h4 class="main-catalog__item-title">
+                                    OUTDOOR
+                                </h4>
+                            </a>
+                        </div>
+                        <div class="main-catalog__item">
+                            <img src="img/main-catalog-2.jpg" alt="img" /><a
+                                href="#"
+                            >
+                                <h4 class="main-catalog__item-title">
+                                    текстиль
+                                </h4></a
+                            >
+                        </div>
+                        <div class="main-catalog__item">
+                            <img src="img/main-catalog-3.jpg" alt="img" />
+                            <a href="#">
+                                <h4 class="main-catalog__item-title">
+                                    ковры
+                                </h4></a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+                <section class="professional">
+    <div class="container">
+        <div class="professional__wrapper">
+            <h2 class="professional__title title">
+                Работаем с профессионалами своего дела
+            </h2>
+            <div class="professional__inner">
+                <div class="professional__cards">
+                    <div class="professional__card">
+                        <div class="professional__avatar">
+                            <img src="img/avatar-1.jpg" alt="avatar" />
+                        </div>
+                        <p class="professional__skill">архитектор</p>
+                        <h5 class="professional__card-title">
+                            Андрей Загородский
+                        </h5>
+                        <div class="professional__quotes">
+                            <p class="professional__card-text">
+                                Работаю с брендами, которые создают новые
+                                решения. Выделяю своих клиентов через минимализм
+                                и элегантность.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="professional__card">
+                        <div class="professional__avatar">
+                            <img src="img/avatar-2.jpg" alt="avatar" />
+                        </div>
+                        <p class="professional__skill">архитектор</p>
+                        <h5 class="professional__card-title">Марина Власева</h5>
+                        <div class="professional__quotes">
+                            <p class="professional__card-text">
+                                Создаю эксклюзивные решения, где главным
+                                критерием является — высокий уровень комфорта
+                                моих клиентов.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <form class="form professional__form">
+                    <div class="form__body">
+                        <h4 class="form__title">
+                            получить консультацию специалиста
+                        </h4>
+                        <p class="form__text">
+                            Наши сотрудники расскажут о самых выгодных решениях,
+                            которые сделают ваш интерьер особенным.
+                        </p>
+                        <div class="form__content">
+                            <input
+                                type="text"
+                                class="form__item form__input"
+                                placeholder="Имя"
+                                name="name"
+                                value=""
+                            />
+                            <input
+                                type="number"
+                                class="form__item form__input"
+                                placeholder="Телефон*"
+                                name="phone"
+                                value=""
+                                required
+                            />
+                            <p class="error">Поле обязательно для заполнения</p>
+                            <input
+                                type="email"
+                                class="form__item form__input"
+                                placeholder="E-mail"
+                                name="email"
+                                value=""
+                            />
+
+                            <button
+                                class="button form__btn btn professional-btn"
+                                data-path="form-popup-thanks"
+                            >
+                                оставить заявку
+                            </button>
+                            <p class="form__info">
+                                Нажимая на кнопку «Оставить заявку», вы даете
+                                согласие на обработку
+                                <a href="privacy.html">персональных данных</a>
+                            </p>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+                <section class="service">
+    <div class="service__wrapper">
+        <div class="swiper service__swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide service__slide service__slide1">
+                    <div class="container">
+                        <div class="service__slide-banner">
+                            <h3 class="service__slide-title">
+                                архитектурно-дизайнерское бюро. выполняем
+                                комплекс работ по созданию дизайнерских решений
+                            </h3>
+                            <div class="service__slide-address">
+                                <p>Наш адрес:</p>
+                                <p>119049, г. Москва, ул. Донская, д.6 стр.2</p>
+                            </div>
+                            <div class="service__slide-time">
+                                <p>Время работы:</p>
+                                <p>Пн-Пт с 11:00 до 20:00</p>
+                            </div>
+                            <button
+                                class="service__btn btn booking-btn"
+                                data-path="form-popup-booking"
+                            >
+                                Забронировать посещение
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide service__slide service__slide2">
+                    <div class="container">
+                        <div class="service__slide-banner">
+                            <h3 class="service__slide-title">
+                                архитектурно-дизайнерское бюро. выполняем
+                                комплекс работ по созданию дизайнерских решений
+                            </h3>
+                            <div class="service__slide-address">
+                                <p>Наш адрес:</p>
+                                <p>119049, г. Москва, ул. Донская, д.6 стр.2</p>
+                            </div>
+                            <div class="service__slide-time">
+                                <p>Время работы:</p>
+                                <p>Пн-Пт с 11:00 до 20:00</p>
+                            </div>
+                            <button
+                                class="service__btn btn booking-btn"
+                                data-path="form-popup-booking"
+                            >
+                                Забронировать посещение
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide service__slide service__slide3">
+                    <div class="container">
+                        <div class="service__slide-banner">
+                            <h3 class="service__slide-title">
+                                архитектурно-дизайнерское бюро. выполняем
+                                комплекс работ по созданию дизайнерских решений
+                            </h3>
+                            <div class="service__slide-address">
+                                <p>Наш адрес:</p>
+                                <p>119049, г. Москва, ул. Донская, д.6 стр.2</p>
+                            </div>
+                            <div class="service__slide-time">
+                                <p>Время работы:</p>
+                                <p>Пн-Пт с 11:00 до 20:00</p>
+                            </div>
+                            <button
+                                class="service__btn btn booking-btn"
+                                data-path="form-popup-booking"
+                            >
+                                Забронировать посещение
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide service__slide service__slide4">
+                    <div class="container">
+                        <div class="service__slide-banner">
+                            <h3 class="service__slide-title">
+                                архитектурно-дизайнерское бюро. выполняем
+                                комплекс работ по созданию дизайнерских решений
+                            </h3>
+                            <div class="service__slide-address">
+                                <p>Наш адрес:</p>
+                                <p>119049, г. Москва, ул. Донская, д.6 стр.2</p>
+                            </div>
+                            <div class="service__slide-time">
+                                <p>Время работы:</p>
+                                <p>Пн-Пт с 11:00 до 20:00</p>
+                            </div>
+                            <button
+                                class="service__btn btn booking-btn"
+                                data-path="form-popup-booking"
+                            >
+                                Забронировать посещение
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="navigation-arrow">
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="modals modals-booking">
+    <div class="modal-overlay">
+        <div class="modal" data-target="form-popup-booking">
+            <div class="close"></div>
+
+            <form class="form booking__form">
+                <div class="form__body">
+                    <h3 class="form__title">забронировать посещение</h3>
+                    <div class="form__content">
+                        <input
+                            type="text"
+                            class="form__item form__input"
+                            placeholder="Имя"
+                            name="name"
+                            value=""
+                        />
+                        <input
+                            type="number"
+                            class="form__item form__input"
+                            placeholder="Телефон*"
+                            name="phone"
+                            value=""
+                            required
+                        />
+                        <p class="error">Поле обязательно для заполнения</p>
+                        <textarea
+                            placeholder="Укажите любую информацию: удобное время для посещения или интересующие вас вопросы
+
+
+                        "
+                            class="form__item form__input"
+                        ></textarea>
+
+                        <button
+                            class="form__btn btn booking-thanks"
+                            data-path="form-popup-thanks"
+                        >
+                            отправить
+                        </button>
+                        <p class="form__info">
+                            Нажимая на кнопку «Отправить», вы даете согласие на
+                            обработку
+                            <a href="privacy.html">персональных данных</a>
+                        </p>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+                <section class="akciya">
+    <div class="container">
+        <div class="akciya__wrapper">
+            <h2 class="akciya__title title">акции</h2>
+            <div class="swiper akciya__swiper">
+                <div class="navigation-arrow">
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+                <div class="swiper-wrapper">
+                    <div class="akciya__slide swiper-slide item item-green">
+                        <img src="img/akciya-slide.jpg" alt="img" />
+                        <div class="akciya__slide-inner item__slide-inner">
+                            <h3 class="akciya__slide-title item__slide-title">
+                                скидка на стулья art deco
+                            </h3>
+                            <p class="akciya__slide-text item__slide-text">
+                                Скидка 20% на стулья ART DECO при заказе
+                                кухонного гарнитура OLA DECO. Акция действует
+                                для новых клиентов.
+                            </p>
+
+                            <button
+                                class="akciya__btn btn-white item__btn callback"
+                                data-path="form-popup-callback"
+                            >
+                                Узнать подробности
+                            </button>
+                            <p class="akciya__slide-date item__slide-date">
+                                Сроки акции: 25.03.2022 — 06.04.2022
+                            </p>
+                        </div>
+                        <div
+                            class="akciya__slide-discount item__slide-discount"
+                        >
+                            20%
+                        </div>
+                    </div>
+                    <div class="akciya__slide swiper-slide item item-gray">
+                        <img src="img/akciya-slide-2.jpg" alt="img" />
+                        <div class="akciya__slide-inner item__slide-inner">
+                            <h3 class="akciya__slide-title item__slide-title">
+                                акция на стулья art deco. второй стул в подарок
+                            </h3>
+                            <p class="akciya__slide-text item__slide-text">
+                                Мы дарим второй/четвертый/шестой стул Art Deco.
+                                В наличии различная фурнитура и цвета. Акция
+                                действует для новых клиентов.
+                            </p>
+
+                            <button
+                                class="akciya__btn item__btn callback"
+                                data-path="form-popup-callback"
+                            >
+                                Узнать подробности
+                            </button>
+                            <p class="akciya__slide-date item__slide-date">
+                                Сроки акции: 25.03.2022 — 06.04.2022
+                            </p>
+                        </div>
+                        <div
+                            class="akciya__slide-discount item__slide-discount"
+                        >
+                            1+1
+                        </div>
+                    </div>
+                    <div class="akciya__slide swiper-slide item item-red">
+                        <img src="img/akciya-slide-3.jpg" alt="img" />
+                        <div class="akciya__slide-inner item__slide-inner">
+                            <h3 class="akciya__slide-title item__slide-title">
+                                дизайн-проект в подарок
+                            </h3>
+                            <p class="akciya__slide-text item__slide-text">
+                                При заказе кухни целиком, дарим дизайн-проект
+                                кухни и отслеживаем все этапы самостоятельно. Вы
+                                получаете результат как с картинки.
+                            </p>
+
+                            <button
+                                class="akciya__btn btn-white item__btn callback"
+                                data-path="form-popup-callback"
+                            >
+                                Узнать подробности
+                            </button>
+                            <p class="akciya__slide-date item__slide-date">
+                                Сроки акции: 25.03.2022 — 06.04.2022
+                            </p>
+                        </div>
+                        <div
+                            class="akciya__slide-discount item__slide-discount"
+                        >
+                            <img src="img/gift.svg" alt="icon" />
+                        </div>
+                    </div>
+                    <div
+                        class="akciya__slide swiper-slide item item-light-grey"
+                    >
+                        <img src="img/akciya-slide-4.jpg" alt="img" />
+                        <div class="akciya__slide-inner item__slide-inner">
+                            <h3 class="akciya__slide-title item__slide-title">
+                                акция на стулья art deco. второй стул в подарок
+                            </h3>
+                            <p class="akciya__slide-text item__slide-text">
+                                Мы дарим второй/четвертый/шестой стул Art Deco.
+                                В наличии различная фурнитура и цвета. Акция
+                                действует для новых клиентов.
+                            </p>
+
+                            <button
+                                class="akciya__btn item__btn callback"
+                                data-path="form-popup-callback"
+                            >
+                                Узнать подробности
+                            </button>
+                            <p class="akciya__slide-date item__slide-date">
+                                Сроки акции: 25.03.2022 — 06.04.2022
+                            </p>
+                        </div>
+                        <div
+                            class="akciya__slide-discount item__slide-discount"
+                        >
+                            1+1
+                        </div>
+                    </div>
+                    <div class="akciya__slide swiper-slide item item-dark-grey">
+                        <img src="img/akciya-slide-5.jpg" alt="img" />
+                        <div class="akciya__slide-inner item__slide-inner">
+                            <h3 class="akciya__slide-title item__slide-title">
+                                дизайн-проект в подарок
+                            </h3>
+                            <p class="akciya__slide-text item__slide-text">
+                                При заказе кухни целиком, дарим дизайн-проект
+                                кухни и отслеживаем все этапы самостоятельно. Вы
+                                получаете результат как с картинки.
+                            </p>
+
+                            <button
+                                class="akciya__btn btn-white item__btn callback"
+                                data-path="form-popup-callback"
+                            >
+                                Узнать подробности
+                            </button>
+                            <p class="akciya__slide-date item__slide-date">
+                                Сроки акции: 25.03.2022 — 06.04.2022
+                            </p>
+                        </div>
+                        <div
+                            class="akciya__slide-discount item__slide-discount"
+                        >
+                            <img src="img/gift.svg" alt="icon" />
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+                <section class="interesting">
+    <div class="container">
+        <div class="interesting__wrapper">
+            <h2 class="interesting__title title">Интересные события</h2>
+            <div class="interesting__cards">
+                <a href="article .html">
+                    <div class="interesting__card">
+                        <h4 class="interesting__cart-title">
+                            Louis Poulsen Moonsetter. Кухня PURE от SIEMATIC
+                        </h4>
+                        <p class="interesting__cart-date">25 / 03 / 2022</p>
+                        <img src="img/interesting-1.jpg" alt="img" /></div></a
+                ><a href="article .html">
+                    <div class="interesting__card">
+                        <h4 class="interesting__cart-title">
+                            Le Bambole от Марио Беллини и B&B Italia
+                        </h4>
+                        <p class="interesting__cart-date">12 / 02 / 2022</p>
+                        <img src="img/interesting-2.jpg" alt="img" /></div></a
+                ><a href="article .html">
+                    <div class="interesting__card">
+                        <h4 class="interesting__cart-title">
+                            ACACIA от WITTMANN и Luca Nichetto
+                        </h4>
+                        <p class="interesting__cart-date">02 / 02 / 2022</p>
+                        <img src="img/interesting-3.jpg" alt="img" /></div
+                ></a>
+            </div>
+            <a href="news.html" class="interesting__btn btn">все события</a>
+        </div>
+    </div>
+</section>
+
+            </main>
+            <footer class="footer">
+    <div class="container">
+        <div class="footer__wrapper">
+            <nav class="nav footer__nav">
+                <div class="footer__inner">
+                    <h3 class="footer__title">орт мебель</h3>
+                    <ul class="nav__lists">
+                        <li class="nav__list">
+                            <a href="#" class="nav__link">О компании</a>
+                        </li>
+                        <li class="nav__list">
+                            <a href="#" class="nav__link">события</a>
+                        </li>
+                        <li class="nav__list">
+                            <a href="#" class="nav__link">наши проекты</a>
+                        </li>
+                        <li class="nav__list">
+                            <a href="#" class="nav__link">акции</a>
+                        </li>
+                        <li class="nav__list">
+                            <a href="#" class="nav__link">Партнеры</a>
+                        </li>
+                        <li class="nav__list">
+                            <a href="#" class="nav__link">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__inner">
+                    <h3 class="footer__title">продукция</h3>
+                    <ul class="nav__lists">
+                        <li class="nav__list">
+                            <a href="#" class="nav__link">Бренды</a>
+                        </li>
+                        <li class="nav__list">
+                            <a href="#" class="nav__link">Мебель</a>
+                        </li>
+                        <li class="nav__list">
+                            <a href="#" class="nav__link">Кухни</a>
+                        </li>
+                        <li class="nav__list">
+                            <a href="#" class="nav__link">Свет</a>
+                        </li>
+                        <li class="nav__list">
+                            <a href="#" class="nav__link">Outdoor</a>
+                        </li>
+                        <li class="nav__list">
+                            <a href="#" class="nav__link">Текстиль</a>
+                        </li>
+                        <li class="nav__list">
+                            <a href="#" class="nav__link">Ковры</a>
+                        </li>
+                        <li class="nav__list brown">
+                            <a href="#" class="nav__link">В наличии </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="footer__contacts">
+                <a href="tel:+78003505431" class="footer__phone"
+                    >8 (800) 350-54-31</a
+                >
+                <p class="footer__address">
+                    г. Москва, 119049, ул. Донская, д.6 стр.2
+                </p>
+                <a href="mailto:ort.furniture@mail.ru" class="footer__mail"
+                    >ort.furniture@mail.ru</a
+                >
+                <button
+                    class="footer__btn callback"
+                    data-path="form-popup-callback"
+                >
+                    Обратный звонок
+                </button>
+                <div class="footer__socials">
+                    <a href="#">
+                        <img src="img/vk.svg" alt="vk" />
+                    </a>
+                    <a href="#">
+                        <img src="img/youtube.svg" alt="youtube" />
+                    </a>
+                    <a href="#">
+                        <img src="img/facebook.svg" alt="facebook" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer__info">
+        <div class="container">
+            <p>
+                © Ort-furniture, 2022. Информация на сайте не является офертой и
+                носит информационный характер
+            </p>
+            <a href="privacy.html">Обработка персональных данных</a>
+            <a href="#" class="vela"
+                ><img src="img/vela.svg" alt="logo" /> Разработка и
+                продвижение</a
+            >
+        </div>
+    </div>
+</footer>
+<div class="modals modals-thanks">
+    <div class="modal-overlay">
+        <div class="modal" data-target="form-popup-thanks">
+            <div class="close"></div>
+
+            <form class="form thanks__form">
+                <div class="form__body">
+                    <img src="img/success.svg" alt="" />
+                    <h3 class="form__title">
+                        заявка <br />
+                        успешно отправлена
+                    </h3>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+        </div>
+        <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+<script src="js/app.min.js"></script>
+
+    </body>
+</html>

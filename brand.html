@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/style.min.css" />
+    <title>Блог</title>
+</head>
+
+
+    <body>
+        <div class="wrapper">
+            <header class="header">
+    <div class="header__wrapper">
+        <nav class="nav header__nav-top">
+            <div class="container">
+                <ul class="nav__lists">
+                    <li class="nav__list">
+                        <a href="about.html" class="nav__link">О компании</a>
+                    </li>
+                    <li class="nav__list">
+                        <a href="#" class="nav__link">События</a>
+                    </li>
+                    <li class="nav__list">
+                        <a href="#" class="nav__link">Наши проекты</a>
+                    </li>
+                    <li class="nav__list">
+                        <a href="#" class="nav__link">Акции</a>
+                    </li>
+                    <li class="nav__list">
+                        <a href="#" class="nav__link">Партнеры</a>
+                    </li>
+                    <li class="nav__list">
+                        <a href="#" class="nav__link">Контакты</a>
+                    </li>
+                </ul>
+                <div class="header__inner">
+                    <a href="tel:88003505431" class="header__phone"
+                        >8 (800) 350-54-31</a
+                    >
+                    <button
+                        class="header__btn callback"
+                        data-path="form-popup-callback"
+                    >
+                        Обратный звонок
+                    </button>
+                </div>
+            </div>
+        </nav>
+        <nav class="nav header__nav nav-mobile">
+            <ul class="nav__lists">
+                <li class="nav__list">
+                    <div class="nav__link arrow-mobile">каталог</div>
+                    <ul class="nav-mobile__submenu">
+                        <li>
+                            <a href="#">мебель</a>
+                        </li>
+                        <li>
+                            <a href="#">кухни</a>
+                        </li>
+                        <li>
+                            <a href="#">свет</a>
+                        </li>
+                        <li>
+                            <a href="#">outdoor</a>
+                        </li>
+                        <li>
+                            <a href="#">текстиль</a>
+                        </li>
+                        <li>
+                            <a href="#">ковры</a>
+                        </li>
+                        <li>
+                            <a href="#" class="brown">в наличии</a>
+                        </li>
+                        <li>
+                            <div class="nav-mobile__back">Назад</div>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav__list">
+                    <a href="about.html" class="nav__link">О компании</a>
+                </li>
+                <li class="nav__list">
+                    <a href="#" class="nav__link">События</a>
+                </li>
+                <li class="nav__list">
+                    <a href="#" class="nav__link">Наши проекты</a>
+                </li>
+                <li class="nav__list">
+                    <a href="#" class="nav__link">Акции</a>
+                </li>
+                <li class="nav__list">
+                    <a href="#" class="nav__link">Партнеры</a>
+                </li>
+                <li class="nav__list">
+                    <a href="#" class="nav__link">Контакты</a>
+                </li>
+            </ul>
+            <div class="header__inner">
+                <div class="header__time">Пн-Пт с 9:00 до 18:00 по Мск</div>
+                <a href="tel:88003505431" class="header__phone"
+                    >8 (800) 350-54-31</a
+                >
+                <p class="header__address">
+                    г. Москва, 119049, ул. Донская, д.6 стр.2
+                </p>
+                <a href="mailto:ort.furniture@mail.ru" class="header__mail"
+                    >ort.furniture@mail.ru</a
+                >
+                <button
+                    class="header__btn callback"
+                    data-path="form-popup-callback"
+                >
+                    Обратный звонок
+                </button>
+            </div>
+        </nav>
+        <div class="container">
+            <nav class="nav header__nav-bottom">
+                <a href="index.html">
+                    <div class="logo header__logo">
+                        <p>орт мебель</p>
+                    </div></a
+                >
+                <ul class="nav__lists">
+                    <li class="nav__list">
+                        <a href="#" class="nav__link">бренды</a>
+                    </li>
+
+                    <li class="nav__list">
+                        <a href="#" class="nav__link">Мебель</a>
+                    </li>
+                    <li class="nav__list nav__driver">
+                        <a href="#" class="nav__link">кухни</a>
+                    </li>
+                    <li class="nav__list nav__subscribe">
+                        <a href="#" class="nav__link">свет</a>
+                    </li>
+                    <li class="nav__list nav__subscribe">
+                        <a href="#" class="nav__link">outdoor</a>
+                    </li>
+                    <li class="nav__list nav__subscribe">
+                        <a href="#" class="nav__link">текстиль</a>
+                    </li>
+                    <li class="nav__list nav__subscribe">
+                        <a href="#" class="nav__link">ковры</a>
+                    </li>
+                    <li class="nav__list nav__subscribe">
+                        <a href="#" class="nav__link">в наличии</a>
+                    </li>
+                </ul>
+                <div class="overlay"></div>
+                <div class="submenu">
+                    <ul class="submenu__inner">
+                        <li class="submenu__item">
+                            <div class="submenu__item-title arrow">бренды</div>
+                            <div class="submenu__dropdown">
+                                <ul class="submenu__dropdown-list">
+                                    <li class="submenu__dropdown-item">
+                                        <a
+                                            href="#"
+                                            class="submenu__dropdown-link"
+                                        >
+                                            Dimensione Chi Wing Lo®
+                                        </a>
+                                    </li>
+                                    <li class="submenu__dropdown-item">
+                                        <a
+                                            href="#"
+                                            class="submenu__dropdown-link"
+                                        >
+                                            B&B Italia
+                                        </a>
+                                    </li>
+                                    <li class="submenu__dropdown-item">
+                                        <a
+                                            href="#"
+                                            class="submenu__dropdown-link"
+                                        >
+                                            Maxalto
+                                        </a>
+                                    </li>
+                                    <li class="submenu__dropdown-item">
+                                        <a
+                                            href="#"
+                                            class="submenu__dropdown-link"
+                                        >
+                                            Walter Knoll
+                                        </a>
+                                    </li>
+                                    <li class="submenu__dropdown-item">
+                                        <a
+                                            href="#"
+                                            class="submenu__dropdown-link"
+                                        >
+                                            Wittmann
+                                        </a>
+                                    </li>
+                                    <li class="submenu__dropdown-item">
+                                        <a
+                                            href="#"
+                                            class="submenu__dropdown-link"
+                                        >
+                                            Flos
+                                        </a>
+                                    </li>
+                                    <li class="submenu__dropdown-item">
+                                        <a
+                                            href="#"
+                                            class="submenu__dropdown-link"
+                                        >
+                                            bulthaup
+                                        </a>
+                                    </li>
+                                    <li class="submenu__dropdown-item">
+                                        <a
+                                            href="#"
+                                            class="submenu__dropdown-link"
+                                        >
+                                            Siematic
+                                        </a>
+                                    </li>
+                                    <li class="submenu__dropdown-item">
+                                        <a
+                                            href="#"
+                                            class="submenu__dropdown-link"
+                                        >
+                                            Carl Hansen & Son
+                                        </a>
+                                    </li>
+                                    <li class="submenu__dropdown-item">
+                                        <a
+                                            href="#"
+                                            class="submenu__dropdown-link"
+                                        >
+                                            Ceccotti
+                                        </a>
+                                    </li>
+                                    <li class="submenu__dropdown-item">
+                                        <a
+                                            href="#"
+                                            class="submenu__dropdown-link"
+                                        >
+                                            Draenert
+                                        </a>
+                                    </li>
+                                    <li class="submenu__dropdown-item">
+                                        <a
+                                            href="#"
+                                            class="submenu__dropdown-link"
+                                        >
+                                            Fritz Hansen
+                                        </a>
+                                    </li>
+                                    <li class="submenu__dropdown-item">
+                                        <a
+                                            href="#"
+                                            class="submenu__dropdown-link"
+                                        >
+                                            Dimensione Chi Wing Lo®
+                                        </a>
+                                    </li>
+                                    <li class="submenu__dropdown-item">
+                                        <a
+                                            href="#"
+                                            class="submenu__dropdown-link"
+                                        >
+                                            B&B Italia
+                                        </a>
+                                    </li>
+                                    <li class="submenu__dropdown-item">
+                                        <a
+                                            href="#"
+                                            class="submenu__dropdown-link"
+                                        >
+                                            Maxalto
+                                        </a>
+                                    </li>
+                                    <li class="submenu__dropdown-item">
+                                        <a
+                                            href="#"
+                                            class="submenu__dropdown-link"
+                                        >
+                                            Walter Knoll
+                                        </a>
+                                    </li>
+                                    <li class="submenu__dropdown-item">
+                                        <a
+                                            href="#"
+                                            class="submenu__dropdown-link"
+                                        >
+                                            Wittmann
+                                        </a>
+                                    </li>
+                                    <li class="submenu__dropdown-item">
+                                        <a
+                                            href="#"
+                                            class="submenu__dropdown-link"
+                                        >
+                                            Flos
+                                        </a>
+                                    </li>
+                                    <li class="submenu__dropdown-item">
+                                        <a
+                                            href="#"
+                                            class="submenu__dropdown-link"
+                                        >
+                                            bulthaup
+                                        </a>
+                                    </li>
+                                    <li class="submenu__dropdown-item">
+                                        <a
+                                            href="#"
+                                            class="submenu__dropdown-link"
+                                        >
+                                            Siematic
+                                        </a>
+                                    </li>
+                                    <li class="submenu__dropdown-item">
+                                        <a
+                                            href="#"
+                                            class="submenu__dropdown-link"
+                                        >
+                                            Carl Hansen & Son
+                                        </a>
+                                    </li>
+                                    <li class="submenu__dropdown-item">
+                                        <a
+                                            href="#"
+                                            class="submenu__dropdown-link"
+                                        >
+                                            Ceccotti
+                                        </a>
+                                    </li>
+                                    <li class="submenu__dropdown-item">
+                                        <a
+                                            href="#"
+                                            class="submenu__dropdown-link"
+                                        >
+                                            Draenert
+                                        </a>
+                                    </li>
+                                    <li class="submenu__dropdown-item">
+                                        <a
+                                            href="#"
+                                            class="submenu__dropdown-link"
+                                        >
+                                            Fritz Hansen
+                                        </a>
+                                    </li>
+                                    <li class="submenu__dropdown-item">
+                                        <a
+                                            href="#"
+                                            class="submenu__dropdown-link"
+                                        >
+                                            bulthaup
+                                        </a>
+                                    </li>
+                                    <li class="submenu__dropdown-item">
+                                        <a
+                                            href="#"
+                                            class="submenu__dropdown-link"
+                                        >
+                                            Siematic
+                                        </a>
+                                    </li>
+                                    <li class="submenu__dropdown-item">
+                                        <a
+                                            href="#"
+                                            class="submenu__dropdown-link"
+                                        >
+                                            Carl Hansen & Son
+                                        </a>
+                                    </li>
+                                    <li class="submenu__dropdown-item">
+                                        <a
+                                            href="#"
+                                            class="submenu__dropdown-link"
+                                        >
+                                            Ceccotti
+                                        </a>
+                                    </li>
+                                    <li class="submenu__dropdown-item">
+                                        <a
+                                            href="#"
+                                            class="submenu__dropdown-link"
+                                        >
+                                            Draenert
+                                        </a>
+                                    </li>
+                                    <li class="submenu__dropdown-item">
+                                        <a
+                                            href="#"
+                                            class="submenu__dropdown-link"
+                                        >
+                                            Fritz Hansen
+                                        </a>
+                                    </li>
+                                </ul>
+                                <a href="#" class="submenu__dropdown-all">
+                                    Все бренды
+                                </a>
+                            </div>
+                        </li>
+                        <li class="submenu__item">
+                            <div class="submenu__item-title arrow">мебель</div>
+                            <div class="submenu__dropdown submenu__dropdown2">
+                                <ul class="submenu__dropdown-list">
+                                    <li class="submenu__dropdown-item">
+                                        <a
+                                            href="#"
+                                            class="submenu__dropdown-link"
+                                        >
+                                            Гардеробные
+                                        </a>
+                                    </li>
+                                    <li class="submenu__dropdown-item">
+                                        <a
+                                            href="#"
+                                            class="submenu__dropdown-link"
+                                        >
+                                            Кровати
+                                        </a>
+                                    </li>
+                                    <li class="submenu__dropdown-item">
+                                        <a
+                                            href="#"
+                                            class="submenu__dropdown-link"
+                                        >
+                                            Столы
+                                        </a>
+                                    </li>
+                                    <li class="submenu__dropdown-item">
+                                        <a
+                                            href="#"
+                                            class="submenu__dropdown-link"
+                                        >
+                                            Стулья
+                                        </a>
+                                    </li>
+                                </ul>
+                                <a href="#" class="submenu__dropdown-all">
+                                    Все бренды
+                                </a>
+                            </div>
+                        </li>
+                        <li class="submenu__item">
+                            <a href="#" class="submenu__item-title">кухни</a>
+                        </li>
+                        <li class="submenu__item">
+                            <a href="#" class="submenu__item-title">свет</a>
+                        </li>
+                        <li class="submenu__item">
+                            <a href="#" class="submenu__item-title">outdoor</a>
+                        </li>
+                        <li class="submenu__item">
+                            <a href="#" class="submenu__item-title">текстиль</a>
+                        </li>
+                        <li class="submenu__item">
+                            <a href="#" class="submenu__item-title">ковры</a>
+                        </li>
+                        <li class="submenu__item">
+                            <a href="#" class="submenu__item-title"
+                                >в наличии</a
+                            >
+                        </li>
+                    </ul>
+                    <img src="img/menu.jpg" alt="img" />
+                </div>
+                <div class="burger burger-desktop">
+                    <div class="burger__text">каталог</div>
+                    <div class="burger__btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="burger burger-mobile">
+                    <div class="burger__btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+<div class="modals modals-callback">
+    <div class="modal-overlay">
+        <div class="modal" data-target="form-popup-callback">
+            <div class="close"></div>
+
+            <form class="form callback__form">
+                <div class="form__body">
+                    <h3 class="form__title">перезвоним вам</h3>
+                    <div class="form__content">
+                        <input
+                            type="text"
+                            class="form__item form__input"
+                            placeholder="Имя"
+                            name="name"
+                            value=""
+                        />
+                        <input
+                            type="number"
+                            class="form__item form__input"
+                            placeholder="Телефон*"
+                            name="phone"
+                            value=""
+                            required
+                        />
+                        <p class="error">Поле обязательно для заполнения</p>
+                        <textarea
+                            placeholder="Укажите любую информацию: удобное время для звонка или интересующие вас вопросы
+                        "
+                            class="form__item form__input"
+                        ></textarea>
+
+                        <button
+                            class="form__btn btn callback-thanks"
+                            data-path="form-popup-thanks"
+                        >
+                            отправить
+                        </button>
+                        <p class="form__info">
+                            Нажимая на кнопку «Отправить», вы даете согласие на
+                            обработку
+                            <a href="privacy.html">персональных данных</a>
+                        </p>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+            <main class="content">
+                <section class="brand">
+    <div class="crumbs">
+        <div class="container">
+            <ul>
+                <li>
+                    <a href="index.html">Главная</a>
+                </li>
+                <li>
+                    <a href="brands.html">Бренды</a>
+                </li>
+
+                <li>
+                    <p>Siematic</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="brand__wrapper">
+        <div class="container">
+            <div class="brand__block brand__top">
+                <div class="brand__info">
+                    <p class="brand__subtitle">немецкий бренд</p>
+                    <h2 class="brand__title title">Siematic</h2>
+
+                    <p class="brand__text text">
+                        Частная Коллекция представляет самую большую экспозицияю
+                        Siematic в России -- шоурум 1500 кв.м.
+                    </p>
+
+                    <p class="brand__text text">
+                        Наш опыт работы с кухнями Siematic составляет более 20
+                        лет. Так же, как и человек, каждая кухня SieMatic
+                        обладает индивидуальным характером. Откройте для себя
+                        новые возможности для ваших идей. С исключительными
+                        возможностями, предлагаемыми SieMatic, вы можете создать
+                        кухню на свой вкус: Pure, Urban и Classic.
+                    </p>
+                    <button
+                        class="brand__btn btn callback"
+                        data-path="form-popup-callback"
+                    >
+                        Оставить заявку
+                    </button>
+                </div>
+                <img src="img/brand-top.jpg" alt="img" />
+
+                <div class="brand__label">
+                    <img src="img/brand-2.png" alt="img" />
+                </div>
+            </div>
+        </div>
+        <div class="brand__block brand__center">
+            <div class="brand__card">
+                <div class="container">
+                    <h2 class="brand__title title brand__card-title">
+                        Кухня как оазис
+                    </h2>
+                    <p class="brand__text brand__card-text">
+                        Минималистский, вневременно элегантный дизайн мебели
+                        дискретно объединяет архитектурные особенности в большие
+                        и маленькие кухни и подчеркивает то, что действительно
+                        важно: качество материалов и их точное мастерство вплоть
+                        до мельчайших деталей.
+                    </p>
+                    <div class="brand__imgs">
+                        <img src="img/brand-center-1.jpg" alt="img" />
+                        <img src="img/brand-center-2.jpg" alt="img" />
+                    </div>
+                </div>
+            </div>
+            <div class="brand__card">
+                <div class="container">
+                    <h2 class="brand__title title brand__card-title">
+                        Кухня без диктата
+                    </h2>
+                    <p class="brand__text brand__card-text">
+                        Нетрадиционное, интуитивно понятное сопоставление
+                        тщательно отобранных объектов и гибкий «пасьянс». Такая
+                        автономная мебель, как SieMatic 29, порождает кухни,
+                        рассказывающие историю современного мобильного
+                        поколения, его ценности и устремления: «Сделай сам -
+                        сделай это вместе».
+                    </p>
+                    <div class="brand__imgs">
+                        <img src="img/brand-center-3.jpg" alt="img" />
+                        <img src="img/brand-center-4.jpg" alt="img" />
+                    </div>
+                </div>
+            </div>
+            <div class="brand__card">
+                <div class="container">
+                    <h2 class="brand__title title brand__card-title">
+                        Классическая кухня в новом обрамлении
+                    </h2>
+                    <p class="brand__text brand__card-text">
+                        Эта утонченная, индивидуальная концепция дизайна
+                        интерпретирует классическую кухню заново, играя со
+                        стилями и внешне противоречивыми элементами дизайна,
+                        чтобы составить гармоничное целое - к удовольствию всех,
+                        кто желает сочетать старые и новые ценности с вечной
+                        элегантностью.
+                    </p>
+                    <div class="brand__imgs">
+                        <img src="img/brand-center-5.jpg" alt="img" />
+                        <img src="img/brand-center-6.jpg" alt="img" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="brand__block brand__bottom block">
+            <div class="container">
+                <h2 class="brand__title brand__bottom-title block__title">
+                    товары от производителя
+                </h2>
+                <div class="brand__items block__items">
+                    <div class="brand__item block__item">
+                        <p class="brand__fixed block__fixed">в наличии</p>
+                        <img src="img/brand-bottom-1.jpg" alt="img" />
+                        <a href="#">
+                            <h4 class="brand__item-title block__item-title">
+                                Кухня Pure
+                            </h4></a
+                        >
+                    </div>
+                    <div class="brand__item block__item">
+                        <img src="img/brand-bottom-2.jpg" alt="img" />
+                        <a href="#">
+                            <h4 class="brand__item-title block__item-title">
+                                Новая модель кухонь Siematic Pure SLX
+                            </h4></a
+                        >
+                    </div>
+                    <div class="brand__item block__item">
+                        <img src="img/brand-bottom-3.jpg" alt="img" />
+                        <a href="#">
+                            <h4 class="brand__item-title block__item-title">
+                                стулья Siematic Pure SLX
+                            </h4></a
+                        >
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+                <section class="questions">
+    <div class="container">
+        <div class="questions__wrapper">
+            <div class="questions__inner">
+                <h2 class="questions__title title">
+                    Есть вопросы? <span>наш менеджер поможет</span>
+                </h2>
+                <div class="questions__card">
+                    <div class="questions__img">
+                        <img src="img/avatar-2.jpg" alt="avatar" />
+                    </div>
+                    <div class="questions__info">
+                        <p class="questions__subtitle">менеджер орт-мебели</p>
+                        <p class="questions__info-title">Марина Власева</p>
+                        <p class="questions__text">
+                            Вы можете написать сразу в Telegram, чтобы не
+                            оставлять свои контакты
+                        </p>
+
+                        <button class="questions__btn btn btn-blue">
+                            <img src="img/tg.svg" alt="telegram" />перейти в
+                            telegram
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <form class="form questions__form">
+                <div class="form__body">
+                    <div class="form__content">
+                        <input
+                            type="text"
+                            class="form__item form__input"
+                            placeholder="Имя"
+                            name="name"
+                            value=""
+                        />
+                        <input
+                            type="number"
+                            class="form__item form__input"
+                            placeholder="Телефон*"
+                            name="phone"
+                            value=""
+                            required
+                        />
+                        <p class="error">Поле обязательно для заполнения</p>
+                        <textarea
+                            placeholder="Напишите свой вопрос, так мы быстрее сможем обработать заявку
+
+                        "
+                            class="form__item form__input"
+                        ></textarea>
+
+                        <button
+                            class="form__btn btn questions-thanks"
+                            data-path="form-popup-thanks"
+                        >
+                            отправить
+                        </button>
+                        <p class="form__info">
+                            Нажимая на кнопку «Отправить», вы даете согласие на
+                            обработку
+                            <a href="privacy.html">персональных данных</a>
+                        </p>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+            </main>
+            <footer class="footer">
+    <div class="container">
+        <div class="footer__wrapper">
+            <nav class="nav footer__nav">
+                <div class="footer__inner">
+                    <h3 class="footer__title">орт мебель</h3>
+                    <ul class="nav__lists">
+                        <li class="nav__list">
+                            <a href="#" class="nav__link">О компании</a>
+                        </li>
+                        <li class="nav__list">
+                            <a href="#" class="nav__link">события</a>
+                        </li>
+                        <li class="nav__list">
+                            <a href="#" class="nav__link">наши проекты</a>
+                        </li>
+                        <li class="nav__list">
+                            <a href="#" class="nav__link">акции</a>
+                        </li>
+                        <li class="nav__list">
+                            <a href="#" class="nav__link">Партнеры</a>
+                        </li>
+                        <li class="nav__list">
+                            <a href="#" class="nav__link">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__inner">
+                    <h3 class="footer__title">продукция</h3>
+                    <ul class="nav__lists">
+                        <li class="nav__list">
+                            <a href="#" class="nav__link">Бренды</a>
+                        </li>
+                        <li class="nav__list">
+                            <a href="#" class="nav__link">Мебель</a>
+                        </li>
+                        <li class="nav__list">
+                            <a href="#" class="nav__link">Кухни</a>
+                        </li>
+                        <li class="nav__list">
+                            <a href="#" class="nav__link">Свет</a>
+                        </li>
+                        <li class="nav__list">
+                            <a href="#" class="nav__link">Outdoor</a>
+                        </li>
+                        <li class="nav__list">
+                            <a href="#" class="nav__link">Текстиль</a>
+                        </li>
+                        <li class="nav__list">
+                            <a href="#" class="nav__link">Ковры</a>
+                        </li>
+                        <li class="nav__list brown">
+                            <a href="#" class="nav__link">В наличии </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="footer__contacts">
+                <a href="tel:+78003505431" class="footer__phone"
+                    >8 (800) 350-54-31</a
+                >
+                <p class="footer__address">
+                    г. Москва, 119049, ул. Донская, д.6 стр.2
+                </p>
+                <a href="mailto:ort.furniture@mail.ru" class="footer__mail"
+                    >ort.furniture@mail.ru</a
+                >
+                <button
+                    class="footer__btn callback"
+                    data-path="form-popup-callback"
+                >
+                    Обратный звонок
+                </button>
+                <div class="footer__socials">
+                    <a href="#">
+                        <img src="img/vk.svg" alt="vk" />
+                    </a>
+                    <a href="#">
+                        <img src="img/youtube.svg" alt="youtube" />
+                    </a>
+                    <a href="#">
+                        <img src="img/facebook.svg" alt="facebook" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer__info">
+        <div class="container">
+            <p>
+                © Ort-furniture, 2022. Информация на сайте не является офертой и
+                носит информационный характер
+            </p>
+            <a href="privacy.html">Обработка персональных данных</a>
+            <a href="#" class="vela"
+                ><img src="img/vela.svg" alt="logo" /> Разработка и
+                продвижение</a
+            >
+        </div>
+    </div>
+</footer>
+<div class="modals modals-thanks">
+    <div class="modal-overlay">
+        <div class="modal" data-target="form-popup-thanks">
+            <div class="close"></div>
+
+            <form class="form thanks__form">
+                <div class="form__body">
+                    <img src="img/success.svg" alt="" />
+                    <h3 class="form__title">
+                        заявка <br />
+                        успешно отправлена
+                    </h3>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+        </div>
+        <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+<script src="js/app.min.js"></script>
+
+    </body>
+</html>
